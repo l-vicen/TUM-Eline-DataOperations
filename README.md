@@ -11,6 +11,8 @@ In addition to the code documentation, I have created this file to summarize the
 
 2. __Dummy Variable: GenderManual__
 
+        GenderManual(Natural Persons only) == Male (M) or Female (F)
+
 ## Challenges
 
 1. __Dummy Variable: NaturalPerson__
