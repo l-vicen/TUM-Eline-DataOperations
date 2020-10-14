@@ -11,7 +11,8 @@ In addition to the code documentation, I have created this file to summarize the
 
 2. __Dummy Variable: GenderManual__
 
-        GenderManual(Natural Persons only) == Male (M) or Female (F)
+        GenderManual(Natural Persons only) == Male (M) or Female (F);
+        Gendermanual(Non natural person) ==         'empty'         ;
 
 ## Challenges
 
@@ -38,5 +39,11 @@ In addition to the code documentation, I have created this file to summarize the
         
 2. __Dummy Variable: GenderManual__
 
+        - [Classifier doc missing]
+
 
 ## Results
+
+- Two dummy variables;
+- Natural Person defined by procedure description above. __In short:__ 2195 non-natural, 121317 natural;
+- Same for Gender Manual. __In short:__ [Upon classifier results]
