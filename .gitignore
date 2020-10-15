@@ -2,6 +2,7 @@
 *.csv
 *.numbers
 
-# Ignoring folders
-.vscode/*
-.versions/*
+# Ignoring IDE files
+.vscode/
+/versions
+.ipynb_checkpoints/
