@@ -11,8 +11,14 @@ In addition to the code documentation, I have created this file to summarize the
 
 2. __Dummy Variable: GenderManual__
 
-        GenderManual(Natural Persons only) == Male (M) or Female (F);
-        Gendermanual(Non natural person) ==         'empty'         ;
+        GenderManual(Natural Persons only): 
+                        
+                        Male (M) == 1;
+                        Female (F) == 0;
+
+        GenderManual(Non-natural person):
+                
+                        Non-natural person  == 'empty' (NaN)         ;
 
 ## Challenges
 
@@ -39,11 +45,17 @@ In addition to the code documentation, I have created this file to summarize the
         
 2. __Dummy Variable: GenderManual__
 
-        - [Classifier doc missing]
-
+        - Played around with 2 existing ML algorithms to classify/predict Gender based on ones firstname. 
+                1. NaiveBayes (Accuracy: 63% test data, 98% train data)
+                2. Decision Tree (Accuracy: 86% test data, 98% train data)
+        - Steps:
+                - From task 1 I knew 119046 observations were Gender reliable because they had inputs under the dmGender column;
+                - The rest, 4466 observation, were distributed (result from task 01) in 2195 non-natural (after 2 manual revisions) & 2271 natural;
+                - Out of the 2271, after manual revision (because 146 obs. didn't had a firstname) and the Gender classifier I have used, I got that 1448 out of 2271 were males and 823 females; (Decision Tree Method with 86% accuracy.)
+                - Encoded and merged all data back together. 
 
 ## Results
 
 - Two dummy variables;
 - Natural Person defined by procedure description above. __In short:__ 2195 non-natural, 121317 natural;
-- Same for Gender Manual. __In short:__ [Upon classifier results]
+- Same for Gender Manual. __In short:__ 100025 Males, 21292 Females & 2195 nan;

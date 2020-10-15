@@ -1,1 +1,7 @@
+# Ignoring file types
 *.csv
+*.numbers
+
+# Ignoring folders
+.vscode/*
+.versions/*
