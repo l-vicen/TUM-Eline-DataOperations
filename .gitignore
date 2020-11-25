@@ -1,6 +1,9 @@
 # Ignoring file types
 *.csv
 *.numbers
+*.txt
+*.numbers
+*.DS_Store
 
 # Ignoring folders
 .vscode/*
